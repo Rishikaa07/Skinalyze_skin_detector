@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skinalyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-buttons">
+    <button onclick="alert('Login coming soon')">Log In</button>
+    <button onclick="alert('Sign Up coming soon')">Sign Up</button>
+  </div>
+
+  <!-- Top Section: Skinalyzer + SmartSkin -->
+  <div class="split-container">
+    <!-- Left Pane -->
+    <div class="left-pane">
+      <div class="logo-circle">
+        <img src="logo.png" alt="Skinalyzer Logo">
+      </div>
+      <h1>Skinalyzer</h1>
+      <p class="tagline">Smart AI-based Skin Disease Detection</p>
+      <div class="upload-section">
+        <label for="imgInput">Upload a skin image:</label><br>
+        <input type="file" id="imgInput" accept="image/*">
+        <button onclick="alert('Predicting...')">Predict</button>
+      </div>
+    </div>
+
+    <!-- Right Pane -->
+    <div class="right-pane">
+      <h2>🌿 Skinalyzer SmartSkin</h2>
+      <p>Select your skin type to get ingredient recommendations:</p>
+      <select id="skinType" onchange="suggestIngredients()">
+        <option value="">-- Select Skin Type --</option>
+        <option value="dry">Dry</option>
+        <option value="oily">Oily</option>
+        <option value="combination">Combination</option>
+        <option value="sensitive">Sensitive</option>
+        <option value="normal">Normal</option>
+      </select>
+
+      <div id="suggestion-box" class="hidden card">
+        <h3>Recommended Ingredients</h3>
+        <ul id="ingredientList"></ul>
+      </div>
+
+      <div id="precautions-box" class="hidden card">
+        <h3>Suggestions</h3>
+        <ul>
+          <li>Patch test before full use.</li>
+          <li>Use sunscreen with actives.</li>
+          <li>Stay hydrated and consistent.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <h2 style="color:#0d47a1; margin-bottom: 20px;">Frequently Asked Questions</h2>
+    <div class="faq-card">
+      <h4>🔍 How accurate is Skinalyzer?</h4>
+      <p>It uses AI models trained on dermatology datasets and provides high-confidence predictions.</p>
+    </div>
+    <div class="faq-card">
+      <h4>🧴 Can I use this for all skin types?</h4>
+      <p>Yes! Skinalyzer SmartSkin tailors skincare ingredient suggestions for every skin type.</p>
+    </div>
+    <div class="faq-card">
+      <h4>🔐 Is my image data stored?</h4>
+      <p>No, all images are processed locally or securely and not saved — your privacy is our priority.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
