@@ -1,6 +1,6 @@
 isic_id,attribution,copyright_license,age_approx,anatom_site_general,anatom_site_special,concomitant_biopsy,dermoscopic_type,diagnosis_1,diagnosis_2,diagnosis_3,diagnosis_4,diagnosis_5,diagnosis_confirm_type,image_type,lesion_id,melanocytic,patient_id,sex
 ISIC_0012086,Anonymous,CC-0,30,,,True,,Benign,Benign epidermal proliferations,Seborrheic keratosis,,,histopathology,dermoscopic,,False,,male
-ISIC_0012092,Anonymous,CC-0,40,,,True,,Benign,Benign melanocytic proliferations,Nevus,,,histopathology,dermoscopic,,True,,male
+ISIC_0012092,Anonymous,CC-0,40,,,True,,Benign,Benign melanocytic proliferations,Nevus,,,histopathology,dermoscopic,,True,,male 
 ISIC_0012095,Anonymous,CC-0,25,,,True,,Benign,Benign melanocytic proliferations,Nevus,,,histopathology,dermoscopic,,True,,male
 ISIC_0012134,Anonymous,CC-0,75,,,True,contact non-polarized,Benign,Benign epidermal proliferations,Seborrheic keratosis,,,histopathology,dermoscopic,,False,,female
 ISIC_0012136,Anonymous,CC-0,70,,,True,contact non-polarized,Benign,Benign epidermal proliferations,Seborrheic keratosis,,,histopathology,dermoscopic,,False,,male
