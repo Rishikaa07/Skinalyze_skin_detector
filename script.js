@@ -13,7 +13,7 @@ function suggestIngredients() {
     normal: ["Vitamin C", "Jojoba Oil", "Glycerin"]
   };
 
-  const suggestions = {
+  const suggestions = { 
     dry: [
       "Use thick moisturizers twice a day.",
       "Avoid long hot showers.",
