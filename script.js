@@ -3,7 +3,7 @@ function suggestIngredients() {
   const suggestionBox = document.getElementById("suggestion-box");
   const precautionsBox = document.getElementById("precautions-box");
   const ingredientList = document.getElementById("ingredientList");
-  const suggestionList = document.getElementById("suggestionList");
+  const suggestionList = document.getElementById("suggestionList"); 
 
   const ingredients = {
     dry: ["Hyaluronic Acid", "Shea Butter", "Ceramides"],
