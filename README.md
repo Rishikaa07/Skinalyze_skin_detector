@@ -36,15 +36,22 @@ Skinalyzer is an AI-powered web tool for skin disease detection and personalized
 
 ## 🗂️ Project Structure
 Skinalyze/
+
 │
+
 ├── main.py
 
 ├── skin_disease_classifier.py
 
 ├── preprocess.py
+
 ├── utils.py
+
 ├── metadata.csv
+
 ├── model.h5
+
 ├── requirements.txt
+
 └── images/
 
