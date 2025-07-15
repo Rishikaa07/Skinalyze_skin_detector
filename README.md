@@ -1,7 +1,7 @@
 # Skinalyze_skin_detector
 Skinalyzer is an AI-powered web tool for skin disease detection and personalized skincare suggestions. Users can upload skin images for predictions and get ingredient recommendations based on skin type.
 
-> **Skinalyze** is a dual-purpose AI tool designed to detect common skin diseases from metadata and provide personalized skincare suggestions based on age, sex, and anatomical site.
+> **Skinalyze** is a dual-purpose AI tool designed to detect common skin diseases from metadata and provide personalized skincare suggestions based on age, sex, and anatomical site. 
 
 ---
 
