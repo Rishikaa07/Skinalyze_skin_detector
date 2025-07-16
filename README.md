@@ -18,7 +18,7 @@ Skinalyzer is an AI-powered web tool for skin disease detection and personalized
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots 
 
 | AI Diagnosis Panel | SmartSkin Suggestions |
 
